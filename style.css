@@ -1,0 +1,57 @@
+body{
+  background: rgba(255, 255, 255, 0);
+}
+h1 {
+  color: #000000;
+  text-align: center;
+}
+
+/* 전체컨테이너*/
+#box {
+	margin: 20px auto;
+	width: 900px;
+	background: rgba(255,255,255,0);
+	box-shadow: 0px 0px 10px  2px #777;
+	color: #ccc;
+	padding: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+
+/* 시작박스*/
+#startbox{
+	background: rgba(255,255,255,0);
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin: 20px 20px 20px 20px;
+	box-shadow: 0px 0px 10px  2px #000000;
+}
+
+/*결과박스*/
+#result {
+	background: rgba(255,255,255,0);
+	background-size : cover;
+	width: 420px;
+	height: 420px;
+	float: left;
+	margin-left: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	box-shadow: 0px 0px 10px  2px #000000;
+}
+/*퍼즐두는곳*/
+.cell {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+/*퍼즐조각*/
+#startbox img {
+	float: left;
+	padding: 0px;
+	width: 50px;
+	height: 50px;
+}
